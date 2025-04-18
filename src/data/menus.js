@@ -5,13 +5,18 @@ export const menuMain = [
         highlighted: false,
     },
     {
-        name: "Menu",
+        name: "Company",
+        url: "/about-us",
+        highlighted: false,
+    },
+    {
+        name: "Products",
         url: "/menu",
         highlighted: false,
     },
     {
-        name: "About Us",
-        url: "/about-us",
+        name: "Machinery",
+        url: "",
         highlighted: false,
     },
     {
@@ -24,6 +29,7 @@ export const menuMain = [
         url: "/contact",
         highlighted: false,
     },
+    
     {
         name: "Book",
         url: "/book",
@@ -31,11 +37,21 @@ export const menuMain = [
     },
 ];
 
+export const menuFooter = [
+    { name: "Home", url: "/" },
+    { name: "Company", url: "/about-us" },
+    { name: "Products", url: "/menu" },
+    { name: "Applications", url: "/" },
+    { name: "Gallery", url: "/gallery" },
+    { name: "Contact", url: "/contact" },
+    { name: "Enquire", url: "/book" },
+];
+
 export const footerPrimary = [
     {
         title: "Navigatie",
         items: [
-            { name: "home", url: "/" },
+            { name: "Home", url: "/" },
         ],
     },
 ];
