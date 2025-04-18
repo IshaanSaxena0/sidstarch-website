@@ -31,7 +31,7 @@ export const menuMain = [
     },
     
     {
-        name: "Book",
+        name: "Enquire",
         url: "/book",
         highlighted: true,
     },
