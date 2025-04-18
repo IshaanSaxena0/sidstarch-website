@@ -8,7 +8,7 @@ const siteLangFormat = siteLang.replace("_", "-");
 ---
 
 <!-- Quick Nav -->
-<div class="mb-20 sticky top-8 z-10">
+<!-- <div class="mb-20 sticky top-8 z-10">
 	<nav class="bg-brand-green text-white rounded-full max-w-5xl mx-auto swiper-plates w-full">
 		<ul id="plate-nav" class="px-6 py-3 swiper-wrapper h-auto w-auto">
 			{
@@ -22,7 +22,23 @@ const siteLangFormat = siteLang.replace("_", "-");
 			}
 		</ul>
 	</nav>
-</div>
+</div> -->
+
+<div class="mb-20 sticky top-8 z-10">
+	<div class="swiper swiper-plates bg-brand-green text-white rounded-full max-w-5xl mx-auto w-full overflow-hidden">
+	  <div class="swiper-wrapper px-6 py-3 h-auto w-auto">
+		{
+		  plates.map((plate) => (
+			<div class="swiper-slide !w-max">
+			  <a href={`#${plate.slug}`} class="font-medium select-none block whitespace-nowrap">
+				{plate.prettyName}
+			  </a>
+			</div>
+		  ))
+		}
+	  </div>
+	</div>
+  </div>
 
 <div class="grid grid-cols-1 gap-y-32">
 	{
@@ -49,7 +65,7 @@ const siteLangFormat = siteLang.replace("_", "-");
 	}
 </div>
 
-<script>
+<!-- <script>
 	import Swiper from "swiper";
 	import "swiper/css";
 
@@ -61,4 +77,18 @@ const siteLangFormat = siteLang.replace("_", "-");
             slidesPerView: "auto",
 		});
 	});
-</script>
+</script> -->
+
+<script>
+	import Swiper from "swiper";
+	import "swiper/css";
+  
+	document.addEventListener("astro:page-load", () => {
+	  new Swiper(".swiper-plates", {
+		slidesPerView: "auto",
+		spaceBetween: 24,
+		freeMode: true,          // Allow manual scrolling
+	  });
+	});
+  </script>
+  

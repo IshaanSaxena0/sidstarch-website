@@ -3,7 +3,7 @@
 	  "id": 1,
 	  "slug": "native-potato-starch",
 	  "prettyName": "Native Potato Starch",
-	  "description": "Start your meal with one of our delicious appetizers.",
+	  "description": "",
 	  "image": "/images/fryumsback.png",
 	  "plates": []
 	},
@@ -11,7 +11,7 @@
 	  "id": 2,
 	  "slug": "overdired-potato-starch",
 	  "prettyName": "Overdired Potato Starch",
-	  "description": "Fresh and healthy salads made with seasonal ingredients.",
+	  "description": "",
 	  "image": "/images/soupback.png",
 	  "plates": []
 	},
@@ -19,7 +19,7 @@
 	  "id": 3,
 	  "slug": "overdried-maize-starch",
 	  "prettyName": "Overdried Maize Starch",
-	  "description": "Warm up with one of our delicious soups.",
+	  "description": "",
 	  "image": "/images/seasnback.png",
 	  "plates": []
 	},
@@ -27,7 +27,7 @@
 	  "id": 4,
 	  "slug": "pregel-potato-starch",
 	  "prettyName": "Pregel Potato Starch",
-	  "description": "Savor the flavors of our exquisite first courses.",
+	  "description": "",
 	  "image": "/images/bakeryback.png",
 	  "plates": []
 	},
@@ -35,7 +35,7 @@
 	  "id": 5,
 	  "slug": "modified-potato-starch-E1422",
 	  "prettyName": "Modified Potato Starch E1422",
-	  "description": "Indulge in our hearty and satisfying main courses.",
+	  "description": "",
 	  "image": "/images/ketchupback.png",
 	  "plates": []
 	},
@@ -43,7 +43,7 @@
 	  "id": 6,
 	  "slug": "modified-potato-starch-E1420",
 	  "prettyName": "Modified Potato Starch E1420",
-	  "description": "Complement your meal with our delightful side dishes.",
+	  "description": "",
 	  "image": "/images/sausageback.png",
 	  "plates": []
 	},
@@ -51,32 +51,24 @@
 	  "id": 7,
 	  "slug": "native-tapioca-starch",
 	  "prettyName": "Native Tapioca Starch",
-	  "description": "Enjoy our freshly baked pizzas with a variety of toppings.",
-	  "image": "/images/barback.png",
+	  "description": "",
+	  "image": "/images/gravyback.png",
 	  "plates": []
 	},
 	{
 	  "id": 8,
 	  "slug": "pregel-tapioca-starch",
 	  "prettyName": "Pregel Tapioca Starch",
-	  "description": "Discover our chef's special creations for the day.",
-	  "image": "/images/gravyback.png",
+	  "description": "",
+	  "image": "/images/barback.png",
 	  "plates": []
 	},
 	{
 	  "id": 9,
-	  "slug": "pregel-tapioca",
-	  "prettyName": "Pregel Tapioca",
-	  "description": "Delicious and fun meals for our younger guests.",
-	  "image": "/images/saltback.png",
-	  "plates": []
-	},
-	{
-	  "id": 10,
 	  "slug": "seasonning-salt",
 	  "prettyName": "Seasonning Salt",
-	  "description": "End your meal with one of our sweet and delightful desserts.",
-	  "image": "/images/factory-packaging.png",
+	  "description": "",
+	  "image": "/images/saltback.png",
 	  "plates": []
 	}
   ]

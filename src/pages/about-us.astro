@@ -10,6 +10,7 @@ import Article from "~/components/Article.astro";
 
 // Images
 import PizzaHero from "~/assets/images/pizza-hero.png";
+import factoryHero from "~/assets/images/factory-packaging.png";
 ---
 
 <Layout>
@@ -35,7 +36,7 @@ import PizzaHero from "~/assets/images/pizza-hero.png";
 			<div slot="hero-content-right">
 				<Picture
 					class:list={"mx-auto"}
-					src={PizzaHero}
+					src={factoryHero}
 					height={600}
 					formats={["avif", "webp"]}
 					alt="A description of my image."
