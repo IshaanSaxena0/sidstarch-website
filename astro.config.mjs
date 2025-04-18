@@ -11,8 +11,8 @@ import playformInline from "@playform/inline";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://astropie.netlify.app",
-	base: "/",
+	site: "https://IshaanSaxena0.github.io/sidstarch-website",
+	base: "/sidstarch-website/",
 	// trailingSlash: 'always',
 	integrations: [
 		tailwind(),
